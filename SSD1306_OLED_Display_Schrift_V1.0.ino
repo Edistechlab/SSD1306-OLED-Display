@@ -16,8 +16,8 @@ Wirering for the Display:
 -SSD1306    -ESP8266/MCU      -ESP32        -Arduino UNO    -Arduino Mega
 VCC         3.3V              3.3V          3.3V            3.3V
 GND         GND               GND           GND             GND
-SCL         D1 / GPIO 5       GPIO 22       GPIO 9          GPIO 5     
-SDA         D2 / GPIO 4       GPIO 21       GPIO 10         GPIO 53    
+SCL         D1 / GPIO 5       GPIO 22       A5              21     
+SDA         D2 / GPIO 4       GPIO 21       A4              20    
 */
 
 #include <Adafruit_SSD1306.h>
